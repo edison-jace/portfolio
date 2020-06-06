@@ -1,0 +1,42 @@
+:root{
+    --prime-color: #2f2f3a;
+    --second-color: #78a1bb;
+}
+
+.slider-height{
+    background-image: url("../img/hero/edison-slide.png") !important;
+}
+.btn{
+    background-color: var(--second-color);
+}
+.slider-area .hero__caption span{
+    color: var(--second-color);
+}
+#scrollUp, #back-top{
+    background: var(--second-color);
+}
+.categories-area .single-cat::before{
+    background: var(--second-color);
+}
+.about-area .about-caption2 .send-cv a{
+    font-size: 20px;
+}
+.footer-area .footer-top .footer-top-cap span a{
+    font-size: 30px;
+}
+.preloader .preloader-circle{
+    border-top-color: var(--second-color);
+}
+.categories-area .single-cat .cat-icon span{
+    color: var(--second-color);
+}
+.services-area .nav-tabs .nav-item.show .nav-link, .services-area .nav-tabs .nav-link.active{
+    border-bottom:2px solid var(--second-color);
+}
+.btn::before{
+background: #2f2f3a;
+    color: white;
+}
+.border-btn{
+    color: white !important;
+}
